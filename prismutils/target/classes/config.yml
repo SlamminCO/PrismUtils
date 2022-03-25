@@ -1,0 +1,5 @@
+# Supports Placeholders: %APPLICATION-ID%
+# Supports ColorCodes
+applyMessages:
+  - "&fApply here at apply.example.com"
+  - "&fYour application ID is: &a%APPLICATION-ID%"

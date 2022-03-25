@@ -1,0 +1,12 @@
+commands:
+  apply:
+    description: Apply for staff
+    usage: /apply
+    permission: pink.prism.command.apply
+  verifyapplication:
+    description: Verify the application ID of a user
+    usage: /verifyapplication <username> <id>
+    permission: pink.prism.command.verifyapplication
+main: co.slammin.prismutils.App
+name: PrismUtils
+version: 0.1
