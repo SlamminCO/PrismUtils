@@ -18,6 +18,7 @@ public class App extends JavaPlugin {
 
         createPlayerData();
         saveDefaultConfig();
+        getCommand("prism-reload").setExecutor(new CommandReload(this));
         getCommand("apply").setExecutor(new CommandApply(this));
         getCommand("verifyapplication").setExecutor(new CommandVerifyApplication(this));
     }

@@ -1,4 +1,8 @@
 commands:
+  prism-reload:
+    description: Reloads the config
+    usage: /prism-reload
+    permission: pink.prism.command.reload
   apply:
     description: Apply for staff
     usage: /apply
